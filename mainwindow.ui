@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>799</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalvar_2"/>
+    <addaction name="actionImprimir"/>
+    <addaction name="separator"/>
+    <addaction name="actionCerrar"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuCampos">
+    <property name="title">
+     <string>Campos</string>
+    </property>
+    <addaction name="actionCrear"/>
+    <addaction name="separator"/>
+    <addaction name="actionModificar"/>
+    <addaction name="separator"/>
+    <addaction name="actionListar"/>
+   </widget>
+   <widget class="QMenu" name="menuRegistros">
+    <property name="title">
+     <string>Registros</string>
+    </property>
+    <addaction name="actionIndroducir"/>
+    <addaction name="separator"/>
+    <addaction name="actionBuscar"/>
+    <addaction name="separator"/>
+    <addaction name="actionBorrar"/>
+    <addaction name="separator"/>
+    <addaction name="actionListar_2"/>
+   </widget>
+   <widget class="QMenu" name="menuUtilidades">
+    <property name="title">
+     <string>Utilidades</string>
+    </property>
+    <addaction name="actionImportar_XML"/>
+    <addaction name="actionExportar_XML"/>
+    <addaction name="separator"/>
+    <addaction name="actionImportar_Json_2"/>
+    <addaction name="actionExportar_Json_2"/>
+   </widget>
+   <widget class="QMenu" name="menuIndices">
+    <property name="title">
+     <string>Indices</string>
+    </property>
+    <addaction name="actionCrear_Indices"/>
+    <addaction name="actionCrear_Indices_Arbol_B"/>
+    <addaction name="actionReindexar"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuCampos"/>
+   <addaction name="menuRegistros"/>
+   <addaction name="menuUtilidades"/>
+   <addaction name="menuIndices"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNuevo">
+   <property name="text">
+    <string>Nuevo</string>
+   </property>
+  </action>
+  <action name="actionSalvar">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="actionSalvar_2">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="text">
+    <string>Imprimir</string>
+   </property>
+  </action>
+  <action name="actionCerrar">
+   <property name="text">
+    <string>Cerrar</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionCrear">
+   <property name="text">
+    <string>Crear</string>
+   </property>
+  </action>
+  <action name="actionModificar">
+   <property name="text">
+    <string>Modificar</string>
+   </property>
+  </action>
+  <action name="actionListar">
+   <property name="text">
+    <string>Listar</string>
+   </property>
+  </action>
+  <action name="actionIndroducir">
+   <property name="text">
+    <string>Indroducir</string>
+   </property>
+  </action>
+  <action name="actionBuscar">
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </action>
+  <action name="actionBorrar">
+   <property name="text">
+    <string>Borrar</string>
+   </property>
+  </action>
+  <action name="actionListar_2">
+   <property name="text">
+    <string>Listar</string>
+   </property>
+  </action>
+  <action name="actionImportar_XML">
+   <property name="text">
+    <string>Importar XML</string>
+   </property>
+  </action>
+  <action name="actionExportar_XML">
+   <property name="text">
+    <string>Exportar XML</string>
+   </property>
+  </action>
+  <action name="actionImportar_Json">
+   <property name="text">
+    <string>Importar Json</string>
+   </property>
+  </action>
+  <action name="actionExportar_Json">
+   <property name="text">
+    <string>Exportar Json</string>
+   </property>
+  </action>
+  <action name="actionImportar_Json_2">
+   <property name="text">
+    <string>Importar Json</string>
+   </property>
+  </action>
+  <action name="actionExportar_Json_2">
+   <property name="text">
+    <string>Exportar Json</string>
+   </property>
+  </action>
+  <action name="actionCrear_Indices">
+   <property name="text">
+    <string>Crear Indices Simples</string>
+   </property>
+  </action>
+  <action name="actionCrear_Indices_Arbol_B">
+   <property name="text">
+    <string>Crear Indices Arbol B</string>
+   </property>
+  </action>
+  <action name="actionReindexar">
+   <property name="text">
+    <string>Reindexar</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
