@@ -6,12 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>799</width>
-    <height>512</height>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu</family>
+    <pointsize>11</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Access</string>
   </property>
   <widget class="QWidget" name="centralWidget"/>
   <widget class="QMenuBar" name="menuBar">
@@ -19,8 +27,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>799</width>
-     <height>20</height>
+     <width>800</width>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -29,7 +37,7 @@
     </property>
     <addaction name="actionNuevo"/>
     <addaction name="separator"/>
-    <addaction name="actionSalvar_2"/>
+    <addaction name="actionSalvar"/>
     <addaction name="actionImprimir"/>
     <addaction name="separator"/>
     <addaction name="actionCerrar"/>
@@ -96,11 +104,6 @@
    </property>
   </action>
   <action name="actionSalvar">
-   <property name="text">
-    <string>Salvar</string>
-   </property>
-  </action>
-  <action name="actionSalvar_2">
    <property name="text">
     <string>Salvar</string>
    </property>
