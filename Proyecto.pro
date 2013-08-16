@@ -17,7 +17,8 @@ SOURCES += main.cpp\
     ventanacrearcampos.cpp
 
 HEADERS  += mainwindow.h \
-    ventanacrearcampos.h
+    ventanacrearcampos.h \
+    ventanalistacampos.h
 
 FORMS    += mainwindow.ui \
     ventanacrearcampos.ui
