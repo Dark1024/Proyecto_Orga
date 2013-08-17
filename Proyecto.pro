@@ -14,11 +14,17 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    ventanacrearcampos.cpp
+    ventanacrearcampos.cpp \
+    adtfile.cpp \
+    campo.cpp \
+    adtrecordfile.cpp
 
 HEADERS  += mainwindow.h \
     ventanacrearcampos.h \
-    ventanalistacampos.h
+    ventanalistacampos.h \
+    adtfile.h \
+    campo.h \
+    adtrecordfile.h
 
 FORMS    += mainwindow.ui \
     ventanacrearcampos.ui
