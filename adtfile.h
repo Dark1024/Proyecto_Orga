@@ -23,7 +23,7 @@ public:
     virtual bool isBOF() const;
     virtual bool flush();
 
-private:
+protected:
     string Nombre;
     fstream FSArchivo;
 };

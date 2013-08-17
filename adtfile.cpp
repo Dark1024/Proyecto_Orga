@@ -25,6 +25,14 @@ bool ADTFile::seekp(int n){
     return FSArchivo.good();
 }
 
+int ADTFile::tellg(){
+    return FSArchivo.tellg();
+}
+
+int ADTFile::tellp(){
+    return FSArchivo.tellp();
+}
+
 int ADTFile::read(char* s, int n){
     //s = new char[n];
     if (FSArchivo.is_open()){
@@ -52,6 +60,7 @@ bool ADTFile::isEOF() const{
         return false;
     } //Fin del else
 } //Fin eof
+
 
 bool ADTFile::isBOF() const{
     bool retVal = false;

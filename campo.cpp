@@ -10,7 +10,7 @@ campo::campo(string Nombre, char Tipo, bool Llave, int Tamano, int Decimales){
 
 campo::campo(){
     this->Nombre = "";
-    this->Tipo = '';
+    this->Tipo = ' ';
     this->Llave = false;
     this->Tamano = 0;
     this->Decimales = 0;
