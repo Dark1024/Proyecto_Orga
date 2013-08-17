@@ -1,5 +1,5 @@
 Proyecto de Organización de Archivos periodo IV
 
-MiniAccess
+Mini Data Base
 
 By Joel Pineda && Josué Rojas
