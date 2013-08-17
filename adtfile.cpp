@@ -5,6 +5,13 @@ ADTFile::ADTFile(){
 
 bool ADTFile::open(string PATH){
     Nombre = PATH;
+
+    FSArchivo.open(Nombre.c_str(),ios_base::in);
+    FSArchivo.write("#",1);
+
+    FSArchivo.flush();
+    FSArchivo.close();
+
     FSArchivo.open(Nombre.c_str(), ios_base::in | ios_base::out);
     return FSArchivo.is_open();
 } //Fin open
